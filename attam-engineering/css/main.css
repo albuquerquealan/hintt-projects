@@ -528,7 +528,7 @@ td, th {
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .pb-120 {
@@ -2172,7 +2172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 
 .section-title {
@@ -2343,10 +2343,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about span {
   color: #2c2f6a;
 }
-
-
-
-
+#project span {
+  color: #2c2f6a;
+  font-weight: bold;
+}
 .projects-area .single-project {
   height: 575px;
   color: #222;
@@ -2483,6 +2483,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .service-area .header-text h1 {
   margin-bottom: 20px;
+}
+
+.feature-section {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 800px) {
+  .single-feature {
+    margin-bottom: 30px;
+  }
 }
 
 .single-service {
