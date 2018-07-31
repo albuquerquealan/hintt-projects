@@ -1887,8 +1887,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(34, 34, 34, 0.9);
-  transition: all 0.5s;
+  background: #fff;
+  transition: all 1.5s;
 }
 
 @media (max-width: 673px) {
@@ -1993,7 +1993,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #nav-menu-container {
-    padding-right: 60px;
+    padding-right: 200px;
   }
 }
 
@@ -2008,15 +2008,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
-  font-weight: 400;
+  color: #32345a;
+  font-weight: 400, bolder;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #fff;
+  color: #32345a;
 }
 
 .nav-menu > li {
@@ -2067,7 +2067,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #000;
   font-weight: 900;
 }
 
@@ -2347,7 +2347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #2c2f6a;
   font-weight: bold;
 }
-.projects-area .single-project {
+.projects-area .c project {
   height: 575px;
   color: #222;
   position: relative;
