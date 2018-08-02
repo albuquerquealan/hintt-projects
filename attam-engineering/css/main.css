@@ -1884,12 +1884,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-}
-
-#header.header-scrolled {
   background: #fff;
-  transition: all 1.5s;
 }
+/* EFEITO DE TROCA DE COR DO HEADER AO SCROLLAR A PÁGINA
+#header.header-scrolled {
+  background: #ffffff ;
+  transition: all 1.5s;
+}*/
 
 @media (max-width: 673px) {
   #logo {
@@ -2690,7 +2691,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .form-area textarea {
-  height: 180px;
+  height: 120px;
   margin-top: 0px;
 }
 
