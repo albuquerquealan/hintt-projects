@@ -2009,7 +2009,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #eaa234;
+  color: #2c2f6a;
   font-weight: 400, bolder;
   font-size: 12px;
   text-transform: uppercase;
@@ -2017,7 +2017,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #eaa234;
+  color: #2c2f6a;
+  font-weight: 400, bolder;
 }
 
 .nav-menu > li {
