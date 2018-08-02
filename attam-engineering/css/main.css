@@ -2538,8 +2538,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .testimonial-area .overlay-bg {
-  background-color: #000;
-  opacity: .9;
+  background-color: #2c2f6a;
+  opacity: .8;
 }
 
 .testimonial-area .owl-controls {
