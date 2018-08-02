@@ -2735,7 +2735,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area .footer-bottom a {
-  color: #fab700;
+  color: #fff;
+  
+}
+#t{
+  color:#fab700;
+  margin-left:-3px;
+}
+#tt{
+  color: #fff;
+  margin-left:-3px;
 }
 
 .footer-area .footer-bottom .footer-social {
