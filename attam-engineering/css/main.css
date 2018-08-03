@@ -2697,7 +2697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .form-area textarea {
-  height: 120px;
+  height: 220px;
   margin-top: 0px;
 }
 
@@ -2895,4 +2895,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #parceiro-h1{
   background-color: #f9f9ff;
+}
+#resp{
+  margin-top: 30px;
+}
+
+/**FACEBOOK PLUGIN CONFIGURAÇÕES**/ 
+.fb-page{
+  align-items: center;
+    height: 50px;
+    margin-left: 10%;
+}
+#fb-iframe{
+  margin-top: 10px;
+}
+#google-iframe{
+  
+  margin-left: 30px;
 }
