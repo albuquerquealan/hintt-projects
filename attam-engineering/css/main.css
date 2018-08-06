@@ -58,7 +58,7 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -120,7 +120,7 @@ a, a:focus, a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 600;
   color: #222222;
 }
