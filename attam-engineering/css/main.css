@@ -58,7 +58,7 @@
 
 body {
   color: #777777;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica-Light", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -120,19 +120,19 @@ a, a:focus, a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica-Light", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
-  font-weight: 600;
+ 
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Helvetica", sans-serif;
-  font-weight: 600;
+  font-family: "Helvetica-Light", sans-serif;
+ 
   color: #222222;
 }
 
@@ -2628,7 +2628,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-blog .desc .read-more {
   color: #222;
-  font-weight: 600;
+ 
 }
 
 @media (max-width: 800px) {
@@ -2660,17 +2660,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.single-img img {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
 
 .single-img img:hover {
   -webkit-filter: grayscale(0%);
@@ -2724,13 +2713,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area h4 {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .footer-area .number {
   color: #fab700;
   font-size: 24px;
-  font-weight: 600;
+ 
   line-height: 30px;
 }
 
@@ -2749,7 +2738,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area .footer-bottom {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .footer-area .footer-bottom a {
@@ -2885,7 +2874,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .generic-content h1 {
-  font-weight: 600;
+ 
 }
 
 .about-generic-area {
