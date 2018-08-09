@@ -425,7 +425,11 @@ hr.bold {
 }
 
 
-
+/* ---------- Alinha centro -------------*/
+.center{
+	display: flex;
+	justify-content: center;
+}
 /* ===========================
 --- Intro
 ============================ */
@@ -621,9 +625,7 @@ hr.bold {
 --- Works
 ============================ */
 
-#owl-works {
 
-}
 
 .item {
     margin: 10px;
@@ -764,7 +766,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .widget.widget_categories ul li:before {
 	display: inline-block;
 	font-family: 'Pe-icon-7-stroke';
-	speak: none;
+	speak-as: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -844,13 +846,14 @@ footer {
 
 footer {
 	text-align: center;
-	padding: 50px 0 30px ;
+	padding: 30px 0 30px ;
 
 }
 
 footer .copyright {
 	color: #f8f8f8;
 	font-size: 14px;
+	margin-top: 10px;
 }
 
 footer a.totop {
@@ -1038,6 +1041,11 @@ a.btn:focus{
 }
 .site-logo span{
 	color: #fff212;
+	-webkit-text-stroke-width: 0.7px; /* largura da borda */
+	-webkit-text-stroke-color: rgb(255, 255, 0); 
+	-moz-text-stroke-width: 0.7px;
+	-moz-text-stroke-color:rgb(213, 226, 28);
+
 }
 @media (max-width:768px) {
 	#navigation {
