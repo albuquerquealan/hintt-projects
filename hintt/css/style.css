@@ -339,7 +339,7 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 110px;
 	display:block;
     position:relative;
@@ -435,9 +435,9 @@ hr.bold {
 ============================ */
 
 .hero { background: url(../img/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #fff;}
+.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #000;}
 .hero h1 span { color: #fff212; display: inline-block; }
-.hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
+.hero p { font-size: 24px; font-weight: 400; color: #000; }
 .learn-more-btn { background: #FFF212; padding: 20px 40px; border-radius: 5px;
 	 -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
 	  color: #000; text-transform: uppercase; letter-spacing: 1px; display: inline-block;

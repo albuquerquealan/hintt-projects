@@ -11,13 +11,14 @@
 
   <!-- css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  
+
   <link href="css/nivo-lightbox.css" rel="stylesheet" />
   <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
   <link href="css/animations.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
   <link href="color/default.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
 
 </head>
 
@@ -35,7 +36,7 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center inner">
           <div class="animatedParent">
-            <h1 class="animated fadeInDown">HIN<span>T</span>T</h1>
+            <h1 class="animated fadeInDown color-dark">HIN<span>T</span>T</h1>
             <p class="animated fadeInUp">Publicidade e Propaganda</p>
           </div>
         </div>
@@ -284,7 +285,7 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="animatedParent">
             <div class="section-heading text-center">
-              <h2 class="h-bold animated bounceInDown">Entre em contato conoscos.</h2>
+              <h2 class="h-bold animated bounceInDown">Entre em contato conosco.</h2>
               <div class="divider-header"></div>
             </div>
           </div>
@@ -299,7 +300,7 @@
         <div class="col-md-8 col-md-offset-2">
           <div id="sendmessage">Sua mensagem foi enviada. Obrigado !</div>
           <div id="errormessage"></div>
-          <form id="contact-form" action="" method="post" role="form" class="contactForm">
+          <form id="contact-form" action="mail.php" method="post" role="form" class="contactForm">
             <div class="row marginbot-20">
               <div class="col-md-6 xs-marginbot-20">
                 <div class="form-group">
@@ -329,7 +330,8 @@
                   <div class="validation"></div>
                 </div>
                 <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
-                  Envie sua Mensagem</button>
+                    Envie sua Mensagem <i class="fas fa-arrow-right"></i>
+                </button>
               </div>
             </div>
           </form>
@@ -344,11 +346,11 @@
 
   <footer>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+      <div class="row center">
+        <div class="col-md-6 center">
           <ul class="footer-menu">
             <li>
-              <a href="#page-top">Home</a>
+              <a href="mailto:contato@hintt.com.br"><span class="fas fa-envelope "></span> contato@hint.com.br</a></a>
             </li>
             <li>
               <a href="https://www.facebook.com/hinttcomunicacao/" target="_blank">
@@ -362,13 +364,9 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-6 text-right copyright">
-          &copy;Copyright - HINTT. All Rights Reserved
-          <div class="credits">
-
-          </div>
-        </div>
       </div>
+    </div>
+    </div>
     </div>
   </footer>
 
