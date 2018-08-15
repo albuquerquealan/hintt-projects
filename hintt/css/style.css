@@ -337,7 +337,9 @@ hr.bold {
 /* ===========================
 --- General sections
 ============================ */
-
+.space{
+	padding-bottom: 30px;
+}
 .home-section {
     padding-top: 50px;
     padding-bottom: 110px;
@@ -435,14 +437,14 @@ hr.bold {
 ============================ */
 
 .hero { background: url(../img/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #000;}
+.hero h1 { font-size: 80px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #000;}
 .hero h1 span { color: #fff212; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #000; }
 .learn-more-btn { background: #FFF212; padding: 20px 40px; border-radius: 5px;
 	 -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
 	  color: #000; text-transform: uppercase; letter-spacing: 1px; display: inline-block;
 	  -webkit-box-shadow: 0px 3px 0px 0px #afa70e; -moz-box-shadow: 0px 3px 0px 0px #afa70e; 
-	  box-shadow: 0px 3px 0px 0px #afa70e; margin: 60px 0 0; font-weight: bold; }
+	  box-shadow: 0px 3px 0px 0px #afa70e; margin: 30px 30px 10px 10px; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: #FFF212; color: #1d1f01; }
 
 

@@ -1,6 +1,6 @@
 <?php
 // Replace this with com  own email address
-$siteOwnersEmail = 'contato@hintt.com.br';
+$siteOwnersEmail = 'comercial@hintt.com.br';
 if($_POST) {
    $name = trim(stripslashes($_POST['name']));
    $email = trim(stripslashes($_POST['email']));
