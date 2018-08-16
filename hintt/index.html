@@ -277,68 +277,65 @@
   <!-- /Section: works -->
 
   <!-- Section: contact -->
-  <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
-    <div class="container marginbot-50">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="animatedParent">
-            <div class="section-heading text-center">
-              <h2 class="h-bold animated bounceInDown">Entre em contato conosco.</h2>
-              <div class="divider-header"></div>
-            </div>
+<section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+  <div class="container marginbot-50">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div class="animatedParent">
+          <div class="section-heading text-center">
+            <h2 class="h-bold animated bounceInDown">Entre em contato conosco.</h2>
+            <div class="divider-header"></div>
           </div>
         </div>
       </div>
-
     </div>
 
-    <div class="container">
+  </div>
 
-      <div class="row marginbot-80">
-        <div class="col-md-8 col-md-offset-2">
-          <div id="sendmessage">Sua mensagem foi enviada. Obrigado !</div>
-          <div id="errormessage"></div>
-          <form id="contact-form" action="mail.php" method="post" role="form" class="contactForm">
-            <div class="row marginbot-20">
-              <div class="col-md-6 xs-marginbot-20">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Por favor use pelo menos 4 letras"
-                  />
-                  <div class="validation"></div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail" data-rule="email" data-msg="Por favor entre com um e-mail válido"
-                  />
-                  <div class="validation"></div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:9" data-msg="Por favor envie um assunto com pelo menos 8 letras"
-                  />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="minlen:15" data-msg="Por favor escreva algo para nós !"
-                    placeholder="Mensagem"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
-                    Envie sua Mensagem <i class="fas fa-arrow-right"></i>
-                </button>
-              </div>
-            </div>
-          </form>
+  <div class="container">
+
+    <div class="row marginbot-80">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="sendmessage">Sua mensagem foi enviada. Obrigado !</div>
+        <div id="errormessage"></div>
+        <form class="form-area mt-60" id="myForm"  action="mail.php" method="POST" class="contactForm contact-form text-right">
+      <div class="row marginbot-20">
+        <div class="col-lg-6 form-group xs-marginbot-20">
+          <input name="name" placeholder="Seu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu nome'" class="common-input mb-20 form-control"
+           required="" type="text">
+        </div>
+        <div class="col-lg-6 form-group xs-marginbot-20">
+          <input name="email" placeholder="Seu e-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
+           onblur="this.placeholder = 'Seu e-mail'" class="common-input mb-20 form-control" required="" type="email">
+        </div>
+        <div class="col-lg-12 form-group xs-marginbot-20">
+           <input name="subject" placeholder="Assunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Assunto'" class="common-input mb-20 form-control"
+           required="" type="text">
+        </div>
+        <div class="col-lg-12 form-group xs-marginbot-20">
+          <textarea class="common-textarea mt-20 form-control" name="message" placeholder="Menssagem" onfocus="this.placeholder = ''"
+           onblur="this.placeholder = 'Menssagem'" required=""></textarea>
+        </div>
+
+          </select>
+        </div>
+        <div class="col-lg-13 form-group xs-marginbot-20">
+          
+          <button type="submit" id="btnContactUs" class="primary-btn mt-20 btn btn-skin btn-lg btn-block">Enviar e-mail
+            
+          </button>
+          <div class="mt-10 alert-msg">
+          </div>
         </div>
       </div>
-
-
+    </form>
+      </div>
     </div>
-  </section>
+
+
+  </div>
+</section>
+<!-- /Section: contact -->
   <!-- /Section: contact -->
 
 
@@ -379,7 +376,7 @@
   <script src="js/jquery.appear.js"></script>
   <script src="js/stellar.js"></script>
   <script src="js/nivo-lightbox.min.js"></script>
-
+  <script src="js/mail-script.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/css3-animate-it.js"></script>
   <script src="contactform/contactform.js"></script>

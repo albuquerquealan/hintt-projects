@@ -680,13 +680,13 @@ hr.bold {
 	display:block;
 }
 
-form#contact-form .form-group label {
+form#myForm .form-group label {
 	text-align: left !important;
 	display: block;
 	text-transform: uppercase;
 	font-size: 16px;
 }
-form#contact-form input,form#contact-form select,form#contact-form textarea {
+form#myForm input,form#myForm select,form#myForm textarea {
 	font-size: 14px;
 	line-height: 1.6em;
 	border: 1px solid #eee;
@@ -700,7 +700,7 @@ form#contact-form input,form#contact-form select,form#contact-form textarea {
   border-radius: 2px;
 }
 
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+form#myForm input:focus,form#myForm select:focus,form#myForm textarea:focus {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
 }
@@ -1090,7 +1090,7 @@ a.btn:focus{
 		margin-bottom: 30px;
 	}
 
-	form#contact-form {
+	form#myForm {
 		margin-bottom: 50px;
 	}
 

@@ -2,11 +2,12 @@
 // Replace this with com  own email address
 $siteOwnersEmail = 'henrique@attam.com.br';
 if($_POST) {
-   $name = trim(stripslashes($_POST['name']));
+   $nameText = trim(stripslashes($_POST['name']));
    $email = trim(stripslashes($_POST['email']));
-   $subject = trim(stripslashes($_POST['subject']));
+   $subjectText = trim(stripslashes($_POST['subject']));
    $contact_message = trim(stripslashes($_POST['message']));
    // Check Name
+   $name = mb_encode_mimeheader($nameText,"UTF-8");
 	if (strlen($name) < 2) {
 		$error['name'] = "Por favor entre com seu nome.";
 	}
@@ -16,23 +17,24 @@ if($_POST) {
 	}
 	// Check Message
 	if (strlen($contact_message) < 15) {
-		$error['message'] = "Por favor entre com sua message. Ela deverá ter mais de 15 caracteres.";
+		$error['message'] = "Por favor entre com uma mensagem válida. Ela deverá ter mais de 15 caracteres.";
 	}
    // Subject
-	if ($subject == '') { $subject = "myForm"; }
+   $subject = mb_encode_mimeheader($subjectText,"UTF-8");
+	if ($subject == '') { $subject = "contact-form"; }
    // Set Message
-   $message .= "<b> Enviado por: </b>  " . $name . "<br />";
+   $message .= "<b> Enviado por: </b>  " . $nameText . "<br />";
 	$message .= "<b>E-mail:</b> " . $email . "<br />";
    $message .= "<b>Mensagem:</b> <br /><br />";
    $message .= $contact_message;
-   $message .= "<br /> ----- <br /> <b>Esse e-mail foi enviado pelo seu formulário de contato no seu site.</b> <br />";
+   $message .= "<br /> ----- <br /> <b>Este e-mail foi enviado pelo seu formulário de contato no seu site.</b> <br />";
    // Set From: header
    $from =  $name . " <" . $email . ">";
    // Email Headers
 	$headers = "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $email . "\r\n";
  	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$headers .= "Content-Type: text/html; charset=utf-8\r\n";
    if (!$error) {
       ini_set("sendmail_from", $siteOwnersEmail); // for windows server
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
