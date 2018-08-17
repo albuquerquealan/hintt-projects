@@ -437,9 +437,9 @@ hr.bold {
 ============================ */
 
 .hero { background: url(../img/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
-.hero h1 { font-size: 80px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #000;}
+.hero h1 { font-size: 80px; letter-spacing: 10px; margin: 40px 0 10px; font-weight: 900; color: #000; margin-left: -10px;}
 .hero h1 span { color: #fff212; display: inline-block; }
-.hero p { font-size: 24px; font-weight: 400; color: #000; }
+.hero p { font-size: 24px; font-weight: 400; color: #000; margin-left: -20px;}
 .learn-more-btn { background: #FFF212; padding: 20px 40px; border-radius: 5px;
 	 -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
 	  color: #000; text-transform: uppercase; letter-spacing: 1px; display: inline-block;
