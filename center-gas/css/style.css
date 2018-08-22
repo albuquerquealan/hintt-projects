@@ -1,8 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+
 .nav-bar-custom{
     background-image: linear-gradient(to bottom right, #009300, #66c969);
     padding-bottom: 10px;
 }
+.hero { background: url("../img/hero.jpg") 
+  no-repeat center center; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover; 
+  height: auto; }
 #img-nav{
   margin-top:1px;
 }
+#altura{
+  padding: 20px;
+}
+.margin-top-10{
+  padding-top: 10px;
+}
+/***************************************************************************
+
+============================================================================
+
+FONT CONFIG 
+============================================================================
+
+***************************************************************************/
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Ek Mukta', sans-serif;
+font-weight: 300;
+  color: #666;
+  
+font-size: 16px;
+  line-height: 1.6em;
+font-weight: 400;
+overflow-x: hidden;
+}
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 28px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	color: #111;
+}
+
+
+/***************************************************************************
+
+============================================================================
+
+Footer footer footer 
+============================================================================
+
+***************************************************************************/
+footer {
+    background-color: #404040;
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0 20px ;
+
+}
+
+footer .copyright {
+	color: #f8f8f8;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.totop:hover{
+ color: #f8fc36;
+}
+.totop {
+	color: #f8f8f8;
+	margin-bottom: 30px;
+}
+.totop:focus {
+	outline: 0;
+}
+
+
+
+/* menu */
+ul.footer-menu {
+	list-style: none;
+}
+
+ul.footer-menu li {
+	float: left;
+	margin: 0 0 0 10px;
+
+}
+
+ul.footer-menu li a {
+	color: #000000;
+	font-size: 16px;
+	padding-left: 9px;
+	line-height: 1.1em;
+}
+
+ul.footer-menu li:first-child a {
+	border-left: none;
+	padding-left: 0;
+}
+
+.social-widget {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.social-widget ul li a:hover {
+	color: #383838;
+}
+
+footer .social-widget ul.team-social li a {
+	margin: 0 5px;
+}
+
 

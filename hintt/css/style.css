@@ -19,7 +19,7 @@ body {
     font-family: 'Ek Mukta', sans-serif;
 	font-weight: 300;
     color: #666;
-    background-color: #fff;
+    
 	font-size: 16px;
     line-height: 1.6em;
 	font-weight: 400;
@@ -75,7 +75,7 @@ h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
 }
 
 h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-light {
-	color: #fff;
+	color: #000;
 }
 
 .big-heading {
@@ -103,7 +103,7 @@ p.lead {
 	background-color: rgba(0,0,0,.5);
 	padding: 20px;
 	display: inline-block;
-	color: #fff;
+	color: #000;
 }
 
 .highlight-color {
@@ -170,7 +170,7 @@ blockquote strong {
 
 /* ------- Navigation ------------ */
 #navigation {
-	background: #fff;
+	background: #000;
 	z-index: 9999;
 	width:100%;
     box-sizing:border-box;
@@ -213,7 +213,7 @@ blockquote strong {
 	    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+	color: #000;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -272,7 +272,7 @@ blockquote strong {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-toggle:focus,
@@ -395,7 +395,7 @@ hr.bold {
 
 
 .color-light .section-heading h2 {
-	color: #fff;
+	color: #000;
 }
 .color-light .section-heading p {
 	color: #fefefe;
@@ -408,7 +408,7 @@ hr.bold {
 /* --- section bg var --- */
 
 .bg-white {
-	background: #fff;
+	background: #000;
 }
 
 .bg-gray {
@@ -423,7 +423,7 @@ hr.bold {
 /* --- section color var --- */
 
 .text-light {
-	color: #fff;
+	color: #000;
 }
 
 
@@ -438,14 +438,14 @@ hr.bold {
 
 .hero { background: url(../img/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
 .hero h1 { font-size: 80px; letter-spacing: 10px; margin: 40px 0 10px; font-weight: 900; color: #000; margin-left: -10px;}
-.hero h1 span { color: #fff212; display: inline-block; }
+.hero h1 span { color: #000212; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #000; margin-left: -20px;}
-.learn-more-btn { background: #FFF212; padding: 20px 40px; border-radius: 5px;
+.learn-more-btn { background: #000212; padding: 20px 40px; border-radius: 5px;
 	 -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
 	  color: #000; text-transform: uppercase; letter-spacing: 1px; display: inline-block;
 	  -webkit-box-shadow: 0px 3px 0px 0px #afa70e; -moz-box-shadow: 0px 3px 0px 0px #afa70e; 
 	  box-shadow: 0px 3px 0px 0px #afa70e; margin: 30px 30px 10px 10px; font-weight: bold; }
-.learn-more-btn:hover, .learn-more-btn:focus { background: #FFF212; color: #1d1f01; }
+.learn-more-btn:hover, .learn-more-btn:focus { background: #000212; color: #1d1f01; }
 
 
 
@@ -550,7 +550,7 @@ hr.bold {
     left: 1.8%;
     right: auto;
     width: 96.66666666666666%;
-    color: #fff;
+    color: #000;
 }
 
 .header-text h2 {
@@ -559,12 +559,12 @@ hr.bold {
 
 .header-text h2 span {
 	padding: 10px;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 }
 
 .header-text h3 span {
-	color: #fff;
+	color: #000;
 }
 
 .btn-min-block {
@@ -573,16 +573,16 @@ hr.bold {
 }
 
 .btn-theme {
-    color: #fff;
+    color: #000;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     margin-right: 15px;
 }
 
 .btn-theme:hover {
     color: #000;
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #000;
+    border-color: #000;
 }
 
 /* ===========================
@@ -596,7 +596,7 @@ hr.bold {
 --- Services
 ============================ */
 .service-box {
-	background: #fff;
+	background: #000;
 	border-bottom: 2px solid #f7f7f7;
 	padding: 40px 20px;
 }
@@ -808,7 +808,7 @@ form#myForm input:focus,form#myForm select:focus,form#myForm textarea:focus {
 
 .widget .tagcloud a {
 	padding: 4px 10px;
-	color: #fff;
+	color: #000;
 	display:inline-block;
 	margin: 0 10px 10px 0;
 	font-size: 14px;
@@ -816,7 +816,7 @@ form#myForm input:focus,form#myForm select:focus,form#myForm textarea:focus {
 }
 
 .widget .tagcloud a:hover {
-	color: #fff;
+	color: #000;
 	background: #333;
 }
 
@@ -859,7 +859,7 @@ footer .copyright {
 }
 
 footer a.totop {
-	color: #fff;
+	color: #000;
 	margin-bottom: 30px;
 }
 footer a.totop:focus {
@@ -880,7 +880,7 @@ ul.footer-menu li {
 }
 
 ul.footer-menu li a {
-	color: #fff;
+	color: #000000;
 	font-size: 16px;
 	padding-left: 9px;
 	line-height: 1.1em;
@@ -896,7 +896,7 @@ ul.footer-menu li:first-child a {
 	margin-bottom: 30px;
 }
 .social-widget ul li a:hover {
-	color: #fff;
+	color: #000;
 }
 
 footer .social-widget ul.team-social li a {
@@ -910,16 +910,16 @@ footer .social-widget ul.team-social li a {
 }
 
 .testimonialslide ul li blockquote {
-	color: #fff;
+	color: #000;
 	border-left: none;
 }
 
 .testimonialslide ul li h4 {
-	color: #fff;
+	color: #000;
 	font-weight: 900;
 }
 .testimonialslide ul li h4 span {
-	color: #fff;
+	color: #000;
 	font-weight: 400;
 }
 
@@ -930,7 +930,7 @@ footer .social-widget ul.team-social li a {
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -948,7 +948,7 @@ a.btn:focus{
 }
 
 .btn-red {
-  color: #fff;
+  color: #000;
   background-color: #c83539;
   border-color: #c83539;
 }
@@ -956,7 +956,7 @@ a.btn:focus{
 .btn-red:focus,
 .btn-red:active,
 .btn-red.active {
-  color: #fff;
+  color: #000;
   background-color: #666;
   border-color: #666;
 }
@@ -979,7 +979,7 @@ a.btn:focus{
 .btn-default:focus {
     border: 1px solid #28c3ab;
     outline: 0;
-    color: #fff;
+    color: #000;
     background-color: #28c3ab;
 }
 
@@ -1042,7 +1042,7 @@ a.btn:focus{
 
 }
 .site-logo span{
-	color: #fff212;
+	color: #000212;
 	-webkit-text-stroke-width: 0.7px; /* largura da borda */
 	-webkit-text-stroke-color: rgb(255, 255, 0); 
 	-moz-text-stroke-width: 0.7px;
@@ -1075,7 +1075,7 @@ a.btn:focus{
 	.navbar-header button.navbar-toggle {
 		padding: 4px 15px;
 		font-size: 14px;
-		color: #fff;
+		color: #000;
 	}
 
 	.navbar-custom .nav {
