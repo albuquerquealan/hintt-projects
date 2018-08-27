@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+
+.nav-bar-custom{
+    background-image: linear-gradient(to bottom right, #009300, #66c969);
+    padding-bottom: 10px;
+}
+.hero { 
+  background: url("../img/hero.png")  no-repeat center center; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover; 
+  height: 100%; 
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+  
+
+#img-nav{
+  margin-top:1px;
+}
+.altura{
+  padding: 20px;
+}
+.margin-top-10{
+  padding-top: 10px;
+}
+.margin-top-20{
+  padding-top: 20px;
+}
+.margin-bot-10{
+  padding-bottom: 10px;
+}
+.margin-bot-20{
+  padding-bottom: 20px;
+}
+/***************************************************************************
+
+============================================================================
+
+FONT CONFIG 
+============================================================================
+
+***************************************************************************/
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 28px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	color: #111;
+}
+hr.style14 { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #FEFEC4, #FFD700, #FEFEC4);
+	background-image: -moz-linear-gradient(left, #FEFEC4, #FFD700, #FEFEC4);
+	background-image: -ms-linear-gradient(left, #FEFEC4, #FFD700, #FEFEC4);
+	background-image: -o-linear-gradient(left, #FEFEC4, #FFD700, #FEFEC4); 
+  }
+
+/***************************************************************************
+
+============================================================================
+
+ABOUT COMPANY CONFIG CSS
+============================================================================
+
+***************************************************************************/
+.sobre{
+	padding: 60px 50px
+}
+.sobre h2{
+	text-transform: uppercase;
+}
+.sobre h4{
+	font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.sobre p{
+	margin: 0 0 10px;
+}
+.logo{
+	font-size: 200px;
+	color: #009300;
+}
+/***************************************************************************
+
+============================================================================
+
+ABOUT COMPANY CONFIG CSS 
+============================================================================
+
+***************************************************************************/
+
+.wpp-link{
+ color:#009300;
+ font-weight: bolder;
+}
+.wpp-link:hover{
+ color:#007000;
+ font-weight: bolder;
+}
+
+
+/***************************************************************************
+
+============================================================================
+
+Footer footer footer 
+============================================================================
+
+***************************************************************************/
+footer {
+    background-color: #404040;
+}
+
+footer {
+	text-align: center;
+	
+
+}
+
+footer .copyright {
+	color: #f8f8f8;
+	font-size: 14px;
+	margin-top: -10px;
+}
+
+.totop:hover{
+ color: #f8fc36;
+}
+.totop {
+	color: #f8f8f8;
+	margin-bottom: 30px;
+}
+.totop:focus {
+	outline: 0;
+}
+
+
+
+/* menu */
+ul.footer-menu {
+	list-style: none;
+}
+
+ul.footer-menu li {
+	float: left;
+	margin: 0 0 0 10px;
+
+}
+
+ul.footer-menu li a {
+	color: #000000;
+	font-size: 16px;
+	padding-left: 9px;
+	line-height: 1.1em;
+}
+
+ul.footer-menu li:first-child a {
+	border-left: none;
+	padding-left: 0;
+}
+
+.social-widget {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.social-widget ul li a:hover {
+	color: #383838;
+}
+
+footer .social-widget ul.team-social li a {
+	margin: 0 5px;
+}
+
+
