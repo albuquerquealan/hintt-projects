@@ -119,7 +119,7 @@ ABOUT COMPANY CONFIG CSS
 }
 .logo{
 	font-size: 200px;
-	color: #009300;
+	color: #0172b8;
 }
 /***************************************************************************
 
@@ -131,11 +131,11 @@ ABOUT COMPANY CONFIG CSS
 ***************************************************************************/
 
 .wpp-link{
- color:#009300;
+ color:#0172b8;
  font-weight: bolder;
 }
 .wpp-link:hover{
- color:#007000;
+ color:#0a478a;
  font-weight: bolder;
 }
 
