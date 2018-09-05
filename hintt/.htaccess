@@ -1,5 +1,5 @@
-RewriteEngine On
-Options All -Indexes
-
-RewriteCond %{HTTPS} off
+RewriteEngine On
+Options All -Indexes
+
+RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L]
