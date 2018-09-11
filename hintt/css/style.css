@@ -1253,7 +1253,16 @@ hr.bold {
 --- Plans
 
 ============================ */
-
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+/* ===========
+POP-UP
+============*/
 
 .panel-pricing {
   -moz-transition: all .3s ease;
