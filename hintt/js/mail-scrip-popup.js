@@ -4,7 +4,7 @@
 
     $(document).ready(function() {
 
-        var form = $('#myForm'); // contact form
+        var form = $('#popform'); // contact form
 
         var submit = $('.submit-btn'); // submit button
 

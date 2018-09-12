@@ -623,7 +623,7 @@
 
   <div id="modal-wrapper" class="modal">
 
-    <form class="modal-content  animate" action="">
+    <div class="modal-content  animate">
 
       <h2 class="h-bold  text-center margintop-10 animated">Envie-nos uma mensagem ♥ </h2>
 
@@ -637,7 +637,7 @@
 
             <div id="errormessage"></div>
 
-            <form class="form-area mt-60" id="myForm" action="mail.php" method="POST" class="contactForm contact-form text-right">
+            <form class="form-area mt-60" id="popform" action="mail-popup.php" method="POST" class="popupform contact-form text-right">
 
               <div class="row marginbot-20">
 
@@ -678,29 +678,25 @@
 
               <div class="col-lg-13 form-group xs-marginbot-20">
 
-
-
                 <button type="submit" id="btnContactUs" class="primary-btn mt-20 btn btn-skin btn-lg btn-block">
                   Enviar e-mail
 
 
 
                 </button>
-
                 <div class="mt-10 alert-msg">
-
                 </div>
 
               </div>
 
           </div>
 
-    </form>
+          </form>
 
-  </div>
-  </div>
+        </div>
+      </div>
 
-  </form>
+    </div>
 
   </div>
 
@@ -903,7 +899,25 @@
 
   <!-- /Section: contact -->
 
-  <!-- /Section: contact -->
+<div id="bio_ep">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+</div>
 
 
 
@@ -985,6 +999,8 @@
 
   <script src="js/mail-script.js"></script>
 
+  <script src="js/mail-scrip-popup.js"></script>
+
   <script src="js/custom.js"></script>
 
   <script src="js/css3-animate-it.js"></script>
@@ -993,16 +1009,13 @@
 
   <script src="contactform/contactform.js"></script>
 
+  <script src="contactform/popup-contact.js"></script>
 
-  <script>
-    // If user clicks anywhere outside of the modal, Modal will close
+  <script src="js/popup-close.js"></script>
+  <script type="text/javascript" src="js/bioep.js"></script>
 
-    var modal = document.getElementById('modal-wrapper');
-    window.onclick = function (event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
+  <script type="text/javascript">
+    bioEp.init();
   </script>
 
 </body>
