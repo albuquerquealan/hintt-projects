@@ -1263,8 +1263,9 @@ hr.bold {
 /* ===========
 POP-UP exit 
 ============*/
-
-
+.modal-dialog{
+	padding-top: 10%;
+}
 /* ===========
 POP-UP exit 
 ============*/
