@@ -27,7 +27,7 @@ a:hover {
 }
 
 input[type="button"],
-input[type="submit"] {
+input[type="submit"],.cadastro {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -37,7 +37,7 @@ input[type="submit"] {
   font-family: 'Roboto Slab', serif;
 }
 select,input[type="email"],input[type="text"],input[type=password],
-input[type="button"],input[type="submit"],textarea{
+input[type="button"],input[type="submit"],textarea , .cadastro{
   font-family: 'Roboto Slab', serif;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -78,7 +78,16 @@ ul {
 .services,.contact,.team,.rate,.gallery{
     padding: 5em 0;
 }
-
+.center{
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.center-modal{
+  margin: auto;
+  width: 33%;
+  padding: 10px;
+}
 h3.title {
     font-size:55px;
     text-align: center;
@@ -135,7 +144,7 @@ ALTERAÇÃO BOTÕES
     LOGO  CORES
 --------------*/
 .logo-verde{
-    color: #628A38;
+    color: #628A38 !important;
 }
 .logo-laranja{
     color:#D1782F !important;
@@ -155,6 +164,7 @@ ALTERAÇÃO BOTÕES
 /*-- Logo--*/ 
 .tamanho-logo{
     width: 6%;
+    margin-left: 14%;
 }
 
 /*-- header--*/ 
@@ -1088,16 +1098,19 @@ footer p a {
 @media(max-width:1680px){
 	.tamanho-logo{
         width: 8%;
+        margin-left: 13%;
     }
 }
 @media(max-width:1600px){
 	.tamanho-logo{
         width: 8%;
+        margin-left: 14%;
     }
 }
 @media(max-width:1440px){
     .tamanho-logo{
         width: 9%;
+        margin-left: 15%;
     }
     .slider-info {
     width: 65%;
@@ -1122,6 +1135,7 @@ h3.title {
 @media(max-width:1366px){
     .tamanho-logo{
         width: 10%;
+        margin-left: 16%;
     }
     .header-outs {
     min-height: 692px;
@@ -1148,6 +1162,7 @@ h3.title {
 @media(max-width:1280px){
     .tamanho-logo{
         width: 11%;
+        margin-left: 18%;
     }
     .head-wl h1 a {
     font-size: 47px;
@@ -1227,6 +1242,10 @@ span.font {
 }
 }
 @media(max-width:1080px){
+    .tamanho-logo{
+        width: 11%;
+        margin-left: 19%;
+    }
 	.slider-info p {
     padding: 0.7em 11em 0em 0em;
 	}
@@ -1286,6 +1305,10 @@ span.font {
 	}
 }
 @media(max-width:1050px){
+    .tamanho-logo{
+        width: 11%;
+        margin-left: 22%;
+    }
 	.callbacks_tabs a:after {
     width: 15px;
     height: 15px;
@@ -1382,6 +1405,10 @@ span.banner-icon {
 }
 }
 @media(max-width:991px){
+    .tamanho-logo{
+        width: 11%;
+        margin-left: 24%;
+    }
 	.slider-info {
     width: 76%;
 }

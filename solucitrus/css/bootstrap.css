@@ -3175,19 +3175,19 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #628A38;
+  border-color: rgb(62, 143, 62);
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #fff;
-  background-color: #449d44;
-  border-color: #255625;
+  background-color: #628A38;
+  border-color: #397439;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: rgb(119, 167, 68);
+  border-color: #4d9b4d;
 }
 .btn-success:active,
 .btn-success.active,

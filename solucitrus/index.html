@@ -39,11 +39,11 @@
 
 <body>
 	<div class="header-outs">
-		<div class="w3-agile-logo fundo-verde">				
+		<div class="w3-agile-logo fundo-verde">
 			<div class=" head-wl">
 				<a href="index.html"><img class="tamanho-logo" src="dloci 12.png" alt=""></a>
 				<div class="headder-w3">
-					
+
 				</div>
 
 				<div class="phone-w3ls">
@@ -144,7 +144,7 @@
 							<h4>ACESSORIA AGRÍCOLA </h4>
 							<p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
 							<div class="w3layouts_more-buttn ser-buttn">
-								<a href="#" data-toggle="modal" data-target="#myModal">LEIA MAIS</a>
+								<a href="#" data-toggle="modal" data-target="#myModal">Entre em contato</a>
 							</div>
 
 						</div>
@@ -161,7 +161,7 @@
 							<h4>MELHOR LOGISTICA</h4>
 							<p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
 							<div class="w3layouts_more-buttn ser-buttn">
-								<a href="#" data-toggle="modal" data-target="#myModal">LEIA MAIS</a>
+								<a href="#" data-toggle="modal" data-target="#myModal">Entre em contato</a>
 							</div>
 
 						</div>
@@ -179,7 +179,7 @@
 							<h4>MELHORES SEMENTES</h4>
 							<p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
 							<div class="w3layouts_more-buttn ser-buttn">
-								<a href="#" data-toggle="modal" data-target="#myModal">LEIA MAIS</a>
+								<a href="#" data-toggle="modal" data-target="#myModal">Entre em contato</a>
 							</div>
 
 						</div>
@@ -201,13 +201,44 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button"   class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title">MODAL DE VIDEOS </h4>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Entre em Contato </h4>
 				</div>
 				<div class="modal-body">
-					<div class="out-email">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis at nam, adipisci delectus provident illo quam! Culpa temporibus dolorem non vitae ipsum sequi, harum asperiores aspernatur quam possimus vel a?
-					</div>
+						<form action="#">
+								<div class="form-group">
+									<label for="appointment_name" class="text-black">Nome Completo</label>
+									<input type="text" class="form-control" id="appointment_name">
+								</div>
+								<div class="form-group">
+									<label for="appointment_email" class="text-black">Email</label>
+									<input type="text" class="form-control" id="appointment_email">
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="appointment_date" class="text-black">Data</label>
+											<input type="text" class="form-control" id="appointment_date">
+										</div>    
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="appointment_time" class="text-black">Hora</label>
+											<input type="text" class="form-control" id="appointment_time">
+										</div>
+									</div>
+								</div>
+								
+	
+								<div class="form-group">
+									<label for="appointment_message" class="text-black">Mensagem</label>
+									<textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+								</div>
+								<div class="form-group center-modal">
+									<input type="submit" value="Enviar Menssage" class="btn  btn-success">
+								</div>
+							</form>
+					
 				</div>
 			</div>
 		</div>
@@ -342,7 +373,10 @@
 		<div class="container">
 			<div class="col-md-7 col-sm-8 header-side">
 				<p> Copyright &copy; by <a href="http://www.hintt.com.br" target="_blank">HINTT</a>
-					<script>document.write(new Date().getFullYear());</script>. </p>
+					<script>
+						document.write(new Date().getFullYear());
+					</script>.
+				</p>
 			</div>
 			<div class="col-md-5 col-sm-4 header-side">
 				<div class="buttom-social-grids">
@@ -387,7 +421,7 @@
 	<!-- OnScroll-Number-Increase-JavaScript -->
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/jquery.countup.js"></script>
-	
+
 	<script>
 		$('.counter').countUp();
 	</script>
@@ -431,7 +465,7 @@
 	<!--// bootstrap-->
 	<script>
 		$("#myModal").on('hidden.bs.modal', function (e) {
-  		  $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+			$("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
 		});
 	</script>
 </body>
