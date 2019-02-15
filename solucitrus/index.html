@@ -20,6 +20,8 @@
 	<!--//meta tags ends here-->
 
 	<!--booststrap-->
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<!--//booststrap end-->
@@ -136,14 +138,15 @@
 		<div class="container">
 			<h2 class="sub-title">Por que nos escolher </h2>
 
-			<div class="banner-bottom-girds">
+			<div class="banner-bottom-girds   ">
 				<div class="col-md-4  col-sm-4 col-xs-4  its-banner-grid">
-					<div class="white-shadow">
+					<div class="white-shadow  ">
 
-						<div class=" col-md-8 white-right">
-							<h4>ACESSORIA AGRÍCOLA </h4>
-							<p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
+						<div class=" col-md-8 white-right ">
+							<h4>ASSESSORIA AGRÍCOLA </h4>
+							<p>Os melhores profissionais do setor agrícola fazem parte do nosso time! Nós somos a sua solução! </p>
 							<div class="w3layouts_more-buttn ser-buttn">
+								
 								<a href="#" data-toggle="modal" data-target="#myModal">Entre em contato</a>
 							</div>
 
@@ -155,11 +158,13 @@
 					</div>
 				</div>
 				<div class="col-md-4  col-sm-4 col-xs-4  its-banner-grid">
-					<div class="white-shadow">
+					<div class="white-shadow ">
 
 						<div class="col-md-8 white-right">
-							<h4>MELHOR LOGISTICA</h4>
-							<p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
+							<h4>LOGÍSTICA</h4>
+							<p>Seu produto é nossa prioridade, pensamos nele do início ao fim de todo processo! 
+							</p> 
+							<div class="height-adjustment1"></div>
 							<div class="w3layouts_more-buttn ser-buttn">
 								<a href="#" data-toggle="modal" data-target="#myModal">Entre em contato</a>
 							</div>
@@ -173,11 +178,12 @@
 					</div>
 				</div>
 				<div class="col-md-4  col-sm-4 col-xs-4  its-banner-grid">
-					<div class="white-shadow">
+					<div class="white-shadow ">
 
 						<div class=" col-md-8 white-right">
-							<h4>MELHORES SEMENTES</h4>
-							<p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
+							<h4>SEMENTES</h4>
+							<p>Com estufas preparadas para sua melhor segurança, pensando sempre na qualidade de suas mudas!</p>
+							<div class="height-adjustment2"></div>
 							<div class="w3layouts_more-buttn ser-buttn">
 								<a href="#" data-toggle="modal" data-target="#myModal">Entre em contato</a>
 							</div>
@@ -205,14 +211,14 @@
 					<h4 class="modal-title">Entre em Contato </h4>
 				</div>
 				<div class="modal-body">
-						<form action="#">
+					<form action="mail.php" id="myForm" method="post">
 								<div class="form-group">
 									<label for="appointment_name" class="text-black">Nome Completo</label>
-									<input type="text" class="form-control" id="appointment_name">
+									<input type="text" class="form-control" name="nome" id="appointment_name">
 								</div>
 								<div class="form-group">
 									<label for="appointment_email" class="text-black">Email</label>
-									<input type="text" class="form-control" id="appointment_email">
+									<input type="text" class="form-control" name="email" id="appointment_email">
 								</div>
 								<div class="row">
 									<div class="col-md-6">
@@ -232,7 +238,7 @@
 	
 								<div class="form-group">
 									<label for="appointment_message" class="text-black">Mensagem</label>
-									<textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+									<textarea name="" id="appointment_message" name="msg" class="form-control" cols="30" rows="10"></textarea>
 								</div>
 								<div class="form-group center-modal">
 									<input type="submit" value="Enviar Menssage" class="btn  btn-success">
@@ -300,8 +306,8 @@
 								<span class="fa fa-map-marker" aria-hidden="true"></span>
 							</div>
 							<h5>Endereço</h5>
-							<p>Rua 11,06108,<span>Tatuí, São Paulo
-									Brasil</span></p>
+							<p>Rodovia Mario Batista Mori, 350
+Tatuí-SP</p>
 						</div>
 						<div class=" footer_grid_left">
 
@@ -310,6 +316,7 @@
 							</div>
 							<h5> Entre em contato</h5>
 							<p> <span>+55 (19) 98260-2921</span></p>
+<p> <span>+55 (15) 3305-7885</span></p>
 						</div>
 						<div class=" footer_grid_left">
 							<div class="icon_grid_left">
@@ -317,51 +324,52 @@
 								<span class="fa fa-envelope" aria-hidden="true"></span>
 							</div>
 							<h5>Envie-nos um e-mail</h5>
-							<p><a href="mailto:email@example.com">email@example1.com</a>
-								<span><a href="mailto:email@example.com">email@example2.com</a></span></p>
+							<p><a href="mailto:contato@solucitrus.com.br">contato@solucitrus.com.br</a>
+							
 						</div>
 
 					</div>
 					<div class="col-md-8 col-sm-7 contact-us">
-						<form action="#" method="post">
+						<form action="mail.php" id="myForm" method="post">
 							<div class="styled-input">
 
-								<input type="text" name="Name" placeholder="Nome" required="">
+								<input type="text" name="nome" placeholder="Nome" required="">
 
 							</div>
 							<div class="styled-input">
 
-								<input type="email" name="Email" placeholder="Email" required="">
-
-
-
-							</div>
-							<div class="styled-input">
-
-								<input type="text" name="phone" placeholder="Telefone" required="">
+								<input type="email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Email" required="">
 
 
 
 							</div>
 							<div class="styled-input">
 
-								<textarea name="Message" placeholder="Mensagem" required=""></textarea>
+								<input type="text" name="telefone" placeholder="Telefone" required="">
+
+
+
+							</div>
+							<div class="styled-input">
+
+								<textarea name="msg" placeholder="Mensagem" required=""></textarea>
 
 
 
 							</div>
 							<div>
 								<div class="click">
+									
 									<input type="submit" value="Enviar">
 								</div>
 							</div>
 						</form>
-					</div>
+						</div>
 					<div class="clearfix"> </div>
 				</div>
 
 				<div class="col-md-4 map-grid">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.7676127827053!2d-47.20824768504208!3d-22.47536548523286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88a02c0000003%3A0x6f158a327af4bc29!2sJequitib%C3%A1+Alimentos!5e0!3m2!1spt-BR!2sbr!4v1540161660589"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457.9389061587537!2d-47.8625557200193!3d-23.333485465302264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5d8c1fc7401e7%3A0x540960bb9fae5b4e!2sRod.+Mario+Batista+Mori%2C+350+-+Res.+Ecopark%2C+Tatu%C3%AD+-+SP%2C+18280-120!5e0!3m2!1spt-BR!2sbr!4v1550013794802" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				<div class="clearfix"> </div>
 			</div>

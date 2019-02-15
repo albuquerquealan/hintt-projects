@@ -452,7 +452,7 @@ a {
   max-width: none;
   }
 .slider-info {
-    padding: 8em 0 0;
+    padding: 8em 11em 0;
     width: 100%;
 }
 .slider-info h4{
@@ -585,7 +585,7 @@ span.banner-icon {
 
 .white-shadow {
     background: #ffffff;
-    padding: 25px 20px;
+    padding: 30px 29px;
     border: 1px solid #d8d8d8;
 }
 /* .its-banner-grid:nth-child(3),.its-banner-grid:nth-child(4) {
@@ -1065,7 +1065,13 @@ footer p a {
     margin: 0px 4px;
 }
 .buttom-social-grids ul li:hover {background:#628A38;}
-
+/*-- AJUSTE ALTURA --*/
+.height-adjustment1{
+    margin-top: 96px;
+}
+.height-adjustment2{
+    margin-top: 71px;
+}
 /*-- //footer--*/
 #toTop {
 	display: none;
@@ -1241,6 +1247,15 @@ span.font {
     margin: 16px 0px 5px;
 }
 }
+@MEDIA(max-width:1199px){
+    .height-adjustment1{
+        margin-top: 66px;
+    }
+    .height-adjustment2{
+        margin-top: 0px;
+    }
+}
+
 @media(max-width:1080px){
     .tamanho-logo{
         width: 11%;
@@ -1312,6 +1327,12 @@ span.font {
 	.callbacks_tabs a:after {
     width: 15px;
     height: 15px;
+}
+.height-adjustment1{
+    margin-top: 89px;
+}
+.height-adjustment2{
+    margin-top: 39px;
 }
 .slider-info p {
     padding: 0.5em 11em 0em 0em;
@@ -1411,6 +1432,11 @@ span.banner-icon {
     }
 	.slider-info {
     width: 76%;
+}
+.height-adjustment1{
+    margin-top: 63px;
+}.height-adjustment2{
+    margin-top: 0;
 }
 .head-wl h1 a {
     font-size: 41px;
@@ -1646,6 +1672,9 @@ h3.title {
 	.header-outs {
     min-height: 499px;
 }
+.height-adjustment2{
+    margin-top: 34px;
+}
 .slider-info {
     padding: 13em 0em 0em;
 }
@@ -1728,6 +1757,12 @@ footer p {
 .slider-info p {
     padding: 0.5em 1em 0em 0em;
 }
+.height-adjustment2 {
+    margin-top: 63px;
+}
+.height-adjustment1 {
+    margin-top: 58px;
+}
 .header-outs {
     min-height: 480px;
 }
@@ -1735,6 +1770,11 @@ footer p {
     padding: 3em 0em 0em;
     width: 61%;
 }	
+}
+@media(max-width:714px){
+    .height-adjustment1 {
+        margin-top: 83px;
+    }
 }
 @media(max-width:667px){
 	.head-wl h1 a {
@@ -2016,3 +2056,5 @@ ul.nav.navbar-nav li a {
 .mt-10{
     margin-top: 10%
 }
+
+  
